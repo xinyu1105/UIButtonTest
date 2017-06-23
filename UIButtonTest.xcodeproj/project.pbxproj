@@ -15,6 +15,13 @@
 		290C14BD1DB5CAD300F97F46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 290C14BB1DB5CAD300F97F46 /* LaunchScreen.storyboard */; };
 		290C14C81DB5CAD300F97F46 /* UIButtonTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 290C14C71DB5CAD300F97F46 /* UIButtonTestTests.m */; };
 		290C14D31DB5CAD300F97F46 /* UIButtonTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 290C14D21DB5CAD300F97F46 /* UIButtonTestUITests.m */; };
+		290C14E71DB5CC7300F97F46 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 290C14E61DB5CC7300F97F46 /* TableViewCell.m */; };
+		290C14EE1DB5CE2200F97F46 /* switch_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 290C14EA1DB5CE2200F97F46 /* switch_bg@2x.png */; };
+		2911AB601EFCB07300D9EF9F /* switch_seleced_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2911AB5F1EFCB07300D9EF9F /* switch_seleced_bg@2x.png */; };
+		2937A7F51E5FDA8600408B28 /* CustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2937A7F31E5FDA8600408B28 /* CustomSwitch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		2937A7F61E5FDA8600408B28 /* CustomSwitch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2937A7F41E5FDA8600408B28 /* CustomSwitch.xib */; };
+		2937A7F91E5FDC6100408B28 /* switchOne_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2937A7F71E5FDC6100408B28 /* switchOne_off@2x.png */; };
+		2937A7FA1E5FDC6100408B28 /* switchOne_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2937A7F81E5FDC6100408B28 /* switchOne_on@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,15 @@
 		290C14CE1DB5CAD300F97F46 /* UIButtonTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		290C14D21DB5CAD300F97F46 /* UIButtonTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonTestUITests.m; sourceTree = "<group>"; };
 		290C14D41DB5CAD300F97F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		290C14E51DB5CC7300F97F46 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		290C14E61DB5CC7300F97F46 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		290C14EA1DB5CE2200F97F46 /* switch_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_bg@2x.png"; sourceTree = "<group>"; };
+		2911AB5F1EFCB07300D9EF9F /* switch_seleced_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_seleced_bg@2x.png"; sourceTree = "<group>"; };
+		2937A7F21E5FDA8600408B28 /* CustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomSwitch.h; sourceTree = "<group>"; };
+		2937A7F31E5FDA8600408B28 /* CustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomSwitch.m; sourceTree = "<group>"; };
+		2937A7F41E5FDA8600408B28 /* CustomSwitch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomSwitch.xib; sourceTree = "<group>"; };
+		2937A7F71E5FDC6100408B28 /* switchOne_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switchOne_off@2x.png"; sourceTree = "<group>"; };
+		2937A7F81E5FDC6100408B28 /* switchOne_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switchOne_on@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +119,21 @@
 			children = (
 				290C14B01DB5CAD300F97F46 /* AppDelegate.h */,
 				290C14B11DB5CAD300F97F46 /* AppDelegate.m */,
+				2937A7F21E5FDA8600408B28 /* CustomSwitch.h */,
+				2937A7F31E5FDA8600408B28 /* CustomSwitch.m */,
+				2937A7F41E5FDA8600408B28 /* CustomSwitch.xib */,
 				290C14B31DB5CAD300F97F46 /* ViewController.h */,
 				290C14B41DB5CAD300F97F46 /* ViewController.m */,
+				290C14E51DB5CC7300F97F46 /* TableViewCell.h */,
+				290C14E61DB5CC7300F97F46 /* TableViewCell.m */,
 				290C14B61DB5CAD300F97F46 /* Main.storyboard */,
 				290C14B91DB5CAD300F97F46 /* Assets.xcassets */,
 				290C14BB1DB5CAD300F97F46 /* LaunchScreen.storyboard */,
 				290C14BE1DB5CAD300F97F46 /* Info.plist */,
+				2937A7F71E5FDC6100408B28 /* switchOne_off@2x.png */,
+				2937A7F81E5FDC6100408B28 /* switchOne_on@2x.png */,
+				290C14EA1DB5CE2200F97F46 /* switch_bg@2x.png */,
+				2911AB5F1EFCB07300D9EF9F /* switch_seleced_bg@2x.png */,
 				290C14AD1DB5CAD300F97F46 /* Supporting Files */,
 			);
 			path = UIButtonTest;
@@ -245,7 +270,12 @@
 			files = (
 				290C14BD1DB5CAD300F97F46 /* LaunchScreen.storyboard in Resources */,
 				290C14BA1DB5CAD300F97F46 /* Assets.xcassets in Resources */,
+				2937A7FA1E5FDC6100408B28 /* switchOne_on@2x.png in Resources */,
+				2911AB601EFCB07300D9EF9F /* switch_seleced_bg@2x.png in Resources */,
+				290C14EE1DB5CE2200F97F46 /* switch_bg@2x.png in Resources */,
 				290C14B81DB5CAD300F97F46 /* Main.storyboard in Resources */,
+				2937A7F91E5FDC6100408B28 /* switchOne_off@2x.png in Resources */,
+				2937A7F61E5FDA8600408B28 /* CustomSwitch.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +302,9 @@
 			files = (
 				290C14B51DB5CAD300F97F46 /* ViewController.m in Sources */,
 				290C14B21DB5CAD300F97F46 /* AppDelegate.m in Sources */,
+				290C14E71DB5CC7300F97F46 /* TableViewCell.m in Sources */,
 				290C14AF1DB5CAD300F97F46 /* main.m in Sources */,
+				2937A7F51E5FDA8600408B28 /* CustomSwitch.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +528,7 @@
 				290C14D91DB5CAD300F97F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		290C14DA1DB5CAD300F97F46 /* Build configuration list for PBXNativeTarget "UIButtonTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +537,7 @@
 				290C14DC1DB5CAD300F97F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		290C14DD1DB5CAD300F97F46 /* Build configuration list for PBXNativeTarget "UIButtonTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +546,7 @@
 				290C14DF1DB5CAD300F97F46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
